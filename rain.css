@@ -1,0 +1,138 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(to right, #f3dd83, #f19ee4); 
+    
+}
+
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.267);
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+#mainNavbar .navbar-brand{
+    color: rgb(168, 172, 173);
+    font-weight: bold;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{
+    color: burlywood
+
+}
+
+#mainNavbar .navbar-toggler-icon{
+    color: white;
+}
+
+header {
+    margin-top: 50px;
+    container: 10px;
+    background-image: url('rain.image1.avif');
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+
+
+.container.px-0 {
+    position: relative;
+}
+
+.scroll-animation {
+    opacity: 0; 
+    transform: translateY(50px); 
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+body.scrolled .scroll-animation {
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.267);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: relative;
+    padding: 20px; 
+}
+
+.footer .social-icons {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .social-icons a {
+    margin: 0 10px; 
+    color: #ec45d3;
+    padding: 10px; 
+}
+
+.footer .social-icons a:hover {
+    color: #dddadd60;
+}
+
+.footer h1 {
+    text-align: center; 
+    margin-top: 0;
+    @media (max-width: 768px) {
+        font-size: 1.5rem;
+    }
+}
+
+.iframe{
+    justify-content: center;
+}
+
+
+.card-container {
+    background: linear-gradient(to right, #f3dd83, #f19ee4);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-container .col-md-6 {
+    padding: 15px;
+  }
+  
+  .card-container .text-danger {
+    color: #dc3545;
+  }
+  
+  .card-container .img-fluid {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card-container iframe {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card-container .pluviophile {
+    font-weight: bold;
+  }
+  
